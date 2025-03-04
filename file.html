@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
     <link rel="stylesheet" href="file.css">
-    <title>My game</title>
 </head>
 <body>
-    <div class ='format'>
-        <h1 id ='title'>Quizz-game</h1>
-        <h2 id="quest"> Question goes here </h2>
-        <div> 
-            <button id="button">answer1</button>
-            <button id="button">answer2</button>
-            <button id="button">answer3</button>
-            <button id="button">answer4</button>
+    <div id="container">
+        <h2> Easy Quiz</h2>
+    <div class="quiz">
+        <h2 id="question"> question goes here </h2>
+        <div id="answers">
+            <button class="answer-btn">Answer1</button>
+            <button class="answer-btn">Answer2</button>
+            <button class="answer-btn">Answer3</button>
+            <button class="answer-btn">Answer4</button>
         </div>
-        <button id="next" >next</button>
+        <button id="next">next</button>
     </div>
-    <script src = 'file.js'></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="file.js"></script>
 </body>
 </html>
