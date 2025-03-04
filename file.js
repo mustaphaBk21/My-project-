@@ -68,7 +68,7 @@ function loadQuestion() {
 
   // 
   document.getElementById("next").style.display = "none";
-  const answerBtns = document.querySelectorAll(".answer-btn");
+  var  answerBtns = document.querySelectorAll(".answer-btn");
   each(answerBtns,function(btn){
     btn.disabled = false; 
   })
